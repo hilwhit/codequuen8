@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)http://127.0.0.1:5500/My%20friends.html?lname=&e-mail+address=&e-mail+address= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta>
+        <title>My friends page</title>
+    </head>
+    <body>
+        <h1>MY FRIENDS</h1>
+        <table border="2px"><caption>BABES</caption>
+            <tbody><tr>
+              <th>NAME</th>
+              <th>E-MAIL ADDRESS</th>
+              <th>HOBBIES</th>
+            </tr>
+            <tr>
+              <td>MAGRET ERIOTH</td>
+              <td>maggieerioth@gmail.com</td>
+            </tr>
+            <tr>
+              <td>IMMACULATE MUNI</td>
+              <td>immaculatemuni@gmail.com</td>
+            </tr>
+          </tbody></table>
+          <!--forms start here-->
+          <br>
+          <h2>FORM FOR REGISTRATION</h2>
+          <form>
+            <label for="">First name:</label><br>
+            <input type="text" placeholder="first name"><br>
+            <label for="lname">Surname:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <label for="" gender="">Gender</label><br>
+            <label>Male</label>
+            <input type="radio"><br>
+            <label>female</label>
+            <input type="radio"><br>
+            <label for="fname">E-mail addresss:</label><br>
+            <input type="text" id="e-mail address" name="e-mail address" value=""><br>
+            <label for="fname">Password:</label><br>
+            <input type="text" id="e-mail address" name="e-mail address" value=""><br><br>
+            <input type="checkbox">
+            <label>sleeping</label><br>
+            <input type="checkbox">
+            <label>dancing</label><br>
+            <input type="checkbox">
+            <label>reading</label><br>
+            <input type="checkbox">
+            <label>eating</label><br>
+            <input type="submit" value="Submit"><br>
+            <select>
+                <option>RED</option>
+                <option>GREEN</option>
+                <option>BLUE</option>
+            </select><br>
+            <button>SUBMIT</button><br><br>
+            <textarea style="width: 182px; height: 46px;">COMMENT</textarea>
+
+          </form> 
+          <!--forms end here-->
+    
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

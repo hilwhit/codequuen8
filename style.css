@@ -1,0 +1,48 @@
+.motherbox{
+    border: 5px rgb(140, 206, 140) solid;
+    height: 400px;
+    width: 400px;
+    margin:auto;
+}
+#babybox{
+    height: 200px;
+    width: 200px;
+    border-top: 2px dotted rgb(122, 74, 74);
+    border-bottom: 5px rgb(216, 145, 145) dashed;
+    border-left: rgb(136, 28, 28) 15px double;
+    border-right: yellowgreen 10px solid;
+}
+.box1{
+    border-radius: 5px;
+    border: 3px rgb(26, 233, 19) solid;
+    width: 600px;
+    height: 600px;
+    margin: 50px 40px;
+    box-shadow: 50px 50px rgb(115, 153, 126);
+}
+#box2{
+    width: 400px;
+    height: 400px;
+    margin: 75px;
+    border: 20px rgb(176, 182, 99) solid;
+    background-color: rgb(89, 209, 169);
+    border-top-left-radius: 80px;
+    border-top-color: rgb(214, 188, 150);
+    box-shadow: 20px 20px 10px rgb(54, 68, 32);
+}
+.box3{
+    background-color: rgb(230, 148, 119);
+    border: 5px rgb(160, 91, 160) solid;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgb(105, 25, 105);
+
+
+}
+.logo{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 60px;
+}

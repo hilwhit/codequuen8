@@ -1,0 +1,18 @@
+.container{
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40px 60px 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.container>div{
+    background-color: coral;
+}
+.container>p{
+    text-decoration: wavy;
+    color: blue;
+}
+.container>div>p{
+    color: darkblue;
+}
